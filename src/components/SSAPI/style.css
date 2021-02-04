@@ -1,0 +1,36 @@
+.form {
+  margin: 20px;
+}
+
+.form input{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 90%;
+}
+
+select{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 90%;
+}
+
+.fName, .lName{
+  background-color:#111111;
+  color:#2e9cca;
+  font-size: larger;
+}
+
+.sOne{
+  background-color:#111111;
+  color:#9cb700;
+  font-size: larger;
+}
+
+
+.sTwo{
+  background-color: #111111;
+  color: #2e9cca;
+  font-size: larger;
+}

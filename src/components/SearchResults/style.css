@@ -1,0 +1,9 @@
+ul.search-results img {
+  margin: 0 auto;
+}
+
+.list-group, .list-group-item{
+  background-color: #333333;
+  color:white;
+  font-size: .5rem;
+}
