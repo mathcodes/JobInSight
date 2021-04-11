@@ -9,25 +9,30 @@ import Dashboard from "./pages/Dashboard";
 import "./App.css";
 // import Main from "./components/Main";
 import SignIn from "./Routes/SignIn";
-import { Switch }from "react-router-dom";
+import { Switch } from "react-router-dom";
 import "./App.css";
 
 function App() {
-  return (
-    <div style = {{
-      textAlign: "center"
-    }}>
-       
-       <Route path = "/"> <Switch>
-          
-          <Dashboard />
+    return ( <
+        div style = {
+            {
+                textAlign: "center"
+            }
+        } >
 
-      
-        <SignIn />
-     
-      </Switch>
-   </Route>
-    </div>
-  );
+        <
+        Route path = "/" >
+        <
+        Switch > { /* <SignIn > */ } <
+        Dashboard / >
+
+
+        { /* <SignIn>    */ }
+
+        <
+        /Switch>  <
+        /Route>  <
+        /div>
+    );
 }
 export default App;

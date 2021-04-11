@@ -16,7 +16,7 @@ class SearchBar extends Component{
 
   constructor(props){
       super(props);
-      this.state ={ term : 'derek trucks '};
+      this.state ={ term : 'find videos'};
   }
   render(){
     //return <input onChange={this.onInputChange}/>;

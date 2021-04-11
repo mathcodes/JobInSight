@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from "framer-motion";
 // import "./styles.css";
 import VideoListItem from '../VideoListItem';
 
@@ -22,15 +21,7 @@ const VideoList = (props) =>{
       {videoItems}
     </ul>
     
-    <motion.div
-      className="block"
-      onClick={() => setIsActive(!isActive)}
-      animate={{
-        rotate: isActive ? 180 : 729
-      }}
-    >
-      Hello Framer motion
-    </motion.div>
+   
    
     </div>
   )

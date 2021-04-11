@@ -1,7 +1,0 @@
-type Todo @model @auth(rules: [{allow: public}]) {
-  id: ID!
-  name: String!
-  description: String
-  entry1: String
-  entry2: String
-}
